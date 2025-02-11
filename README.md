@@ -1,8 +1,8 @@
 # Hydrogen_demand_response_market
 ---
 
-**氢能需求响应市场机制深度解析**  
-——聚焦电力市场、氢能交易与政策激励的协同框架  
+# **氢能需求响应市场机制深度解析**  
+## ——聚焦电力市场、氢能交易与政策激励的协同框架  
 
 ---
 
@@ -28,7 +28,8 @@ G[氢能交易平台] --> H(氢燃料长期合约)
 - **场景**：电解槽作为灵活负荷参与电价波动套利  
 - **数学模型**：  
   ```math
-  \max \sum_{t=1}^{24} [P_{sell}(t) \cdot π_{grid}(t) - P_{buy}(t) \cdot π_{grid}(t)]  
+  \max \sum_{t=1}^{24} [P_{sell}(t) \cdot π_{grid}(t) - P_{buy}(t) \cdot π_{grid}(t)]
+  
   \text{s.t. } P_{buy}(t) = η_{elec} \cdot Q_{H2}(t)  
   ```  
   - π_grid(t)：分时电价  
